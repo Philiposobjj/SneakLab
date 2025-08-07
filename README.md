@@ -1,10 +1,10 @@
- Projeto Tênis Personalizável – SneakLab
+ # 👟 Projeto Tênis Personalizável – SneakLab
 
-*SneakLab é uma plataforma de personalização de tênis que permite aos usuários escolher estilo, material, cor, solado, detalhes e até o "tamanho estrutural" do seu tênis — tudo isso com uma visualização gerada por **IA generativa**, que cria uma imagem realista do modelo personalizado em tempo real.
+**SneakLab** é uma plataforma de personalização de tênis que permite aos usuários escolher estilo, material, cor, solado, detalhes e até o "tamanho estrutural" do seu tênis — tudo isso com uma visualização gerada por **IA generativa**, que cria uma imagem realista do modelo personalizado em tempo real.
 
+---
 
-
- Funcionalidades
+## 🚀 Funcionalidades
 
 - Personalização por:
 - Estilo: Casual, Corrida, Skate
@@ -19,7 +19,7 @@
 
 ---
 
-Uso de IA Generativa
+## 🧠 Uso de IA Generativa
 
 A IA é utilizada para gerar uma imagem realista do tênis personalizado com base nas seleções feitas pelo usuário.
 
@@ -29,7 +29,7 @@ A IA é utilizada para gerar uma imagem realista do tênis personalizado com bas
 
 ---
 
- Variações e Preços
+## 💵 Variações e Preços
 
 ### 1. Estilo (preço base)
 - **Casual** – R$ 200
@@ -98,6 +98,6 @@ A IA é utilizada para gerar uma imagem realista do tênis personalizado com bas
 
 ---
 
+## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
