@@ -4,14 +4,55 @@
 
 As características personalizáveis incluem:
 
-Estilo do tênis: casual, corrida ou skate, de acordo com o uso desejado.
+Estilo do tênis: casual, corrida ou skate.
 
-Material: couro, camurça ou tecido, equilibrando conforto e estilo.
+Material: couro, camurça ou tecido.
 
-Solado: borracha, EVA ou Air, com foco em leveza e amortecimento.
+Solado: borracha, EVA ou Air.
 
-Cor principal: branco, preto ou azul, com visual moderno e versátil.
+Cor principal: branco, preto ou azul.
 
-Detalhes extras: escolha entre cadarço normal, colorido ou sem cadarço.
+Cadarço: Cadarço normal, colorido ou sem cadarço.
 
-Com essas opções, o SneakLab transforma um item do dia a dia em um produto único, que reflete a identidade e o gosto de quem usa.
+Preço por opções - Tênis Personalizável (ajustado)
+
+1. Estilo (preço base)
+
+Casual: R$ 200
+
+Corrida: R$ 350
+
+Skate: R$ 300
+
+2. Material (acréscimo ao preço base)
+
+Couro: + R$ 100
+
+Camurça: + R$ 120
+
+Tecido: + R$ 90
+
+3. Solado (acréscimo)
+
+Borracha: + R$ 40
+
+EVA: + R$ 60
+
+Air: + R$ 90
+
+4. Cor (acréscimo)
+
+Branco: + R$ 20
+
+Preto: + R$ 30
+
+Azul: + R$ 25
+
+5. Detalhes (acréscimo)
+
+Cadarço normal: + R$ 20
+
+Cadarço colorido: + R$ 30
+
+Sem cadarço: + R$ 35
+
