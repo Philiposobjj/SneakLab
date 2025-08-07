@@ -1,58 +1,103 @@
-# SneakLab
-È um projeto que oferece uma experiência simples e interativa de personalização de tênis, permitindo que cada usuário monte seu próprio modelo de forma rápida e intuitiva. O sistema propõe cinco etapas de customização, com opções objetivas e acessíveis, tornando o processo leve e divertido.
+ Projeto Tênis Personalizável – SneakLab
+
+*SneakLab é uma plataforma de personalização de tênis que permite aos usuários escolher estilo, material, cor, solado, detalhes e até o "tamanho estrutural" do seu tênis — tudo isso com uma visualização gerada por **IA generativa**, que cria uma imagem realista do modelo personalizado em tempo real.
 
 
-As características personalizáveis incluem:
 
-Estilo do tênis: casual, corrida ou skate.
+ Funcionalidades
 
-Material: couro, camurça ou tecido.
+- Personalização por:
+- Estilo: Casual, Corrida, Skate
+- Material: Couro, Camurça, Tecido
+- Solado: Borracha, EVA, Air
+- Cor: Branco, Preto, Azul, Vermelho, Verde, Amarelo
+- Detalhes: Cadarço normal, colorido ou sem cadarço
+- Tamanho estrutural: Simples (1 andar), Dupla (2 andares), Tripla (3 andares)
+- Preço dinâmico com base nas escolhas
+- Geração de visual do tênis via **IA generativa**
+- Interface amigável para o usuário
 
-Solado: borracha, EVA ou Air.
+---
 
-Cor principal: branco, preto ou azul.
+Uso de IA Generativa
 
-Cadarço: Cadarço normal, colorido ou sem cadarço.
+A IA é utilizada para gerar uma imagem realista do tênis personalizado com base nas seleções feitas pelo usuário.
 
-Preço por opções - Tênis Personalizável (ajustado)
+- Modelo usado: `Stable Diffusion` com ajustes via `ControlNet`
+- Integração: API externa (ex: Replicate ou Hugging Face)
+- Geração baseada em prompts dinâmicos construídos conforme os atributos selecionados
 
-1. Estilo (preço base)
+---
 
-Casual: R$ 200
+ Variações e Preços
 
-Corrida: R$ 350
+### 1. Estilo (preço base)
+- **Casual** – R$ 200
+*Para uso diário e combinações simples*
+- **Corrida** – R$ 350
+*Design leve e pensado para performance*
+- **Skate** – R$ 300
+*Mais resistente e com reforço para manobras*
 
-Skate: R$ 300
+---
 
-2. Material (acréscimo ao preço base)
+### 2. Material (acréscimo)
+- **Couro** – + R$ 100
+*Durável, elegante e com ótimo acabamento*
+- **Camurça** – + R$ 120
+*Toque aveludado e visual moderno*
+- **Tecido** – + R$ 90
+*Leve, respirável e confortável*
 
-Couro: + R$ 100
+---
 
-Camurça: + R$ 120
+### 3. Solado (acréscimo)
+- **Borracha** – + R$ 40
+*Clássico, com boa aderência*
+- **EVA** – + R$ 60
+*Mais leve e com maior amortecimento*
+- **Air** – + R$ 90
+*Tecnologia de amortecimento com bolha de ar*
 
-Tecido: + R$ 90
+---
 
-3. Solado (acréscimo)
+### 4. Cor (acréscimo)
 
-Borracha: + R$ 40
+- **Branco** – + R$ 20
+*Limpo, versátil e minimalista*
+- **Preto** – + R$ 30
+*Sofisticado e fácil de combinar*
+- **Azul** – + R$ 25
+*Estilo com um toque de personalidade*
+- **Vermelho** – + R$ 28
+*Chamativo e cheio de atitude*
+- **Verde** – + R$ 23
+*Fresco e moderno*
+- **Amarelo** – + R$ 30
+*Vibrante e ousado*
 
-EVA: + R$ 60
+---
 
-Air: + R$ 90
+### 5. Detalhes (cadarço – acréscimo)
+- **Cadarço normal** – + R$ 20
+*Visual tradicional e prático*
+- **Cadarço colorido** – + R$ 30
+*Mais ousado, com contraste visual*
+- **Sem cadarço** – + R$ 35
+*Design limpo com fácil calce*
 
-4. Cor (acréscimo)
+---
 
-Branco: + R$ 20
+### 6. Tamanhos (estrutura da casa – valor fixo)
+- **Simples** – R$ 80.000
+*Casa de um andar*
+- **Dupla** – R$ 145.000
+*Casa de dois andares*
+- **Tripla** – R$ 200.000
+*Casa de três andares*
 
-Preto: + R$ 30
+---
 
-Azul: + R$ 25
 
-5. Detalhes (acréscimo)
-
-Cadarço normal: + R$ 20
-
-Cadarço colorido: + R$ 30
-
-Sem cadarço: + R$ 35
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
