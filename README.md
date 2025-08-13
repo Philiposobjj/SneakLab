@@ -88,15 +88,6 @@ A IA é utilizada para gerar uma imagem realista do tênis personalizado com bas
 
 ---
 
-### 6. Tamanhos (estrutura da casa – valor fixo)
-- **Simples** – R$ 80.000
-*Casa de um andar*
-- **Dupla** – R$ 145.000
-*Casa de dois andares*
-- **Tripla** – R$ 200.000
-*Casa de três andares*
-
----
 
 ## 📄 Licença
 
